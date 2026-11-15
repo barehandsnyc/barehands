@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request received — BareHands.NYC</title>
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#e6f3ff" />
+  <link rel="icon" href="/images/mark.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css?v=4" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="wordmark" href="/" aria-label="Bare Hands NYC">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="spaced">Bare</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span class="spaced">Hands</span>
+        <span class="dot wide" aria-hidden="true"></span>
+        <span class="spaced wide">NYC</span>
+        <span class="dot wide" aria-hidden="true"></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/#services">Services</a>
+        <a href="/#rates">Pricelist</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small" href="tel:+13327334228">332.733.4228</a>
+    </div>
+  </header>
+  <main id="main" class="thanks wrap">
+    <p class="kicker" id="thanks-kicker">Request received</p>
+    <div class="rules" aria-hidden="true"></div>
+    <h1>Jake has it.</h1>
+    <p class="lede" id="thanks-lede">He'll reply by email. If it's urgent, call or text.</p>
+    <div class="actions">
+      <a class="btn" href="tel:+13327334228">332.733.4228</a>
+      <a class="btn btn-line" href="/">Back to the site</a>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap bar">
+      <span>© 2026 Bare Hands</span>
+      <span class="footer-links">
+        <a href="mailto:barehandsny@gmail.com">barehandsny@gmail.com</a>
+      </span>
+    </div>
+  </footer>
+  <script>
+    if (location.search.indexOf("preview=1") !== -1) {
+      document.getElementById("thanks-kicker").textContent = "Preview only";
+      document.getElementById("thanks-lede").textContent = "This copy of the site doesn't email Jake. On the live site, this is the page after a request. Call or text if you need him now.";
+    }
+  </script>
+</body>
+</html>
